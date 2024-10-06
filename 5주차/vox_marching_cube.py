@@ -54,8 +54,8 @@ def save_as_ply(verts, faces, output_path):
     mesh.export(output_path)
 
 # 파일 경로 설정 및 실행
-vox_file_path = "bunny_stanford_magicavox.vox"
-output_ply_path = "marching_cube_bunny.ply"
+vox_file_path = "cube.vox"
+output_ply_path = "cube.ply"
 
 # 마칭 큐브 적용 및 회전 후 파일 저장
 voxel_array = load_vox_file(vox_file_path)
